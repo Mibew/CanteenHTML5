@@ -1,32 +1,45 @@
 {
-	"name": "canteen/html5",
-	"description" : "Create dynamic, valid HTML5 markup with a simple an intuitive PHP API",
-	"version" : "1.1.4",
-	"type": "library",
-	"keywords": ["html5", "markup", "document", "html", "tags"],
-	"license": "MIT",
-	"homepage" : "http://github.com/Canteen/CanteenHTML5",
-	"time": "2014-10-31",
-	"authors": [
-        	{
-        	    "name": "Matt Karl",
-        	    "email": "matt@mattkarl.com",
-        	    "homepage": "http://github.com/bigtimebuddy",
-        	    "role": "Developer"
-        	}
-	],
-	"autoload": {
-        	"psr-4": {"Canteen\\HTML5\\": "src/"},
-        	"files": ["src/HTML5.php"]
-    	},
-	"require": {
-		"php": ">=5.3.0"
-	},
-	"minimum-stability": "dev",
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/Canteen/CanteenHTML5"
-		}
-	]
+    "name": "mibew/html5",
+    "description" : "Create dynamic, valid HTML5 markup with a simple an intuitive PHP API",
+    "version" : "1.1.5",
+    "type": "library",
+    "keywords": [
+        "html5",
+        "markup",
+        "document",
+        "html",
+        "tags"
+    ],
+    "license": "MIT",
+    "homepage" : "http://github.com/Mibew/CanteenHTML5",
+    "time": "2021-07-09",
+    "authors": [
+        {
+            "name": "Matt Karl",
+            "email": "matt@mattkarl.com",
+            "homepage": "http://github.com/bigtimebuddy"
+        },
+        {
+            "name": "Mibew Messenger project",
+            "homepage": "https://mibew.org/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Canteen\\HTML5\\": "src/"
+        },
+        "files": [
+            "src/HTML5.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Mibew/CanteenHTML5"
+        }
+    ]
 }
