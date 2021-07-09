@@ -12,11 +12,12 @@ namespace Canteen\HTML5
 	*	echo html('br');
 	*  
 	*  @class Node
+	*  @extends Proto
 	*  @constructor
 	*  @param {String} [tag=null] The name of the tag
 	*  @param {Array|String} [attributes=null] The collection of tag attributes
 	*/
-	class Node
+	class Node extends Proto
 	{
 		/** 
 		*  The string name of the tag
